@@ -1,0 +1,14 @@
+{
+  "Rules": [
+    {
+      "ID": "expirar-resultados-athena",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "athena-results/"
+      },
+      "Expiration": {
+        "Days": 14
+      }
+    }
+  ]
+}
